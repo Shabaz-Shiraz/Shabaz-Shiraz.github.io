@@ -33,7 +33,7 @@ Personal portfolio of **Shabaz Shiraz**, an Android developer in Kochi, India. I
 | Projects | V-Guard Smart 2.0 (featured), Swoozle, Munsit, V-Guard Tez and Last Seat Out |
 | Skills | Core stack, grouped skills, ways of working and what I am learning |
 | Certifications | Kotlin Multiplatform, Google Cybersecurity and Google Project Management |
-| Contact | Email, phone, LinkedIn, GitHub, location and the locations I am open to |
+| Contact | Email, phone, LinkedIn, GitHub and location |
 
 ## Features
 
