@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page not found | Shabaz Shiraz</title>
+	<meta name="robots" content="noindex">
+	<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+	<script>
+		(function () {
+			var t = null;
+			try { t = localStorage.getItem('theme'); } catch (e) {}
+			if (t !== 'light' && t !== 'dark') t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+			document.documentElement.setAttribute('data-theme', t);
+		})();
+	</script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+	<main class="hero" style="min-height:100vh;display:grid;place-items:center;padding:2rem 0">
+		<div class="hero-grid-bg" aria-hidden="true"></div>
+		<div class="container" style="text-align:center">
+			<p class="eyebrow">// 404</p>
+			<h1 class="hero-title">Page not found<span class="dot">.</span></h1>
+			<p class="hero-lede" style="margin-inline:auto">That address doesn't lead anywhere on this site.</p>
+			<a class="btn btn-primary" href="/">Back to the home page</a>
+		</div>
+	</main>
+</body>
+</html>
